@@ -6,72 +6,18 @@
   
   <br />
   
-<pre style="text-align: left; white-space: pre-wrap; word-wrap: break-word;">
 ```python
-from functools import reduce
-from itertools import cycle
-from collections import deque
-
-class RayyanMeta(type):
-    def __new__(cls, name, bases, dct):
-        dct['__all__'] = (
-            "passions", "languages", "current_focus", "life_philosophy",
-            "architecture", "learning", "challenge", "ambition"
-        )
-        return super().__new__(cls, name, bases, dct)
-
-class Rayyan(metaclass=RayyanMeta):
-    passions = tuple(map(str.upper, [
-        "AI/ML", "Data Science", "Clean Code", 
-        "Problem Solving", "Islamic NLP", "Innovation"
-    ]))
-    
-    languages = {
-        lang: len(lang) for lang in [
-            "Python", "C++", "Java", "JavaScript", "SQL"
-        ]
-    }
-
-    current_focus = (
-        lambda: f"Crafting intelligent solutions at scale for real-world impact"
-    )()
-
-    life_philosophy = (
-        lambda: reduce(lambda x, y: x + " | " + y, [
-            "Write code for clarity", "Think like a minimalist", 
-            "Code with empathy for future me"
-        ])
-    )()
-
-    architecture = deque([
-        "Modular Design", "REST APIs", "Hybrid NLP-CNN Architectures", "Cloud-Optimized Workflows"
-    ])
-
-    learning = frozenset([
-        "Blockchain Consensus (PoW vs PoS)", 
-        "Arabic (Najdi Dialect)", 
-        "Advanced DL + Transformers", 
-        "Google Cloud"
-    ])
-
-    challenge = cycle([
-        "Building scalable, interpretable AI",
-        "Creating systems that speak to the future"
-    ])
-
-    ambition = lambda: (
-        f"M.Tech @ IIT Bombay | GATE 2026 Aspirant | "
-        f"Tech Educator in the Making | Innovator for the next decade"
-    )()
-    
-    @property
-    def architectural_focus(self):
-        return [*self.architecture, next(self.challenge)]
-
-    def __str__(self):
-        return f"Rayyan({', '.join(self.__dict__.keys())})"
-  ```
-</pre>
+rayyan = {
+    "passions": ["AI/ML", "Data Science", "Clean Code", "Problem Solving", "Islamic NLP", "Innovation"],
+    "languages": ["Python", "C++", "Java", "JavaScript", "SQL"],
+    "current_focus": "Building intelligent systems that solve real-world problems",
+    "life_philosophy": "Write code so clear that future me will thank me, not curse me",
+    "architecture": ["Modular Design", "REST APIs", "Hybrid NLP-CNN Architectures", "Cloud-Optimized Workflows"],
+    "learning": ["Blockchain Consensus (PoW vs PoS)", "Arabic (Najdi Dialect)", "Advanced DL + Transformers", "Google Cloud"],
+    "challenge": "Designing scalable, interpretable AI with a touch of elegance",
+    "ambition": "M.Tech @ IIT Bombay | GATE 2026 Aspirant | Tech Educator in the Making"
+}
+```
 
 </div>
 

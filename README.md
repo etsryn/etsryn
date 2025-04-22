@@ -6,8 +6,8 @@
   
   <br />
   
-  ```python
-  from functools import reduce
+```python
+from functools import reduce
 from itertools import cycle
 from collections import deque
 

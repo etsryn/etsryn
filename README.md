@@ -2,9 +2,7 @@
   
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=30&duration=1200&pause=148&center=true&vCenter=true&width=435&lines=I+am+Rayyan+Ashraf;Interested+in+Field+of%2C;Data+Science%2C;Artificial+Intelligence%2C;or+Machine+Learning+%3F;I'm+Eager+to+Connect+!)](https://git.io/typing-svg)
 
-  <a href="https://github.com/etsryn">
-    [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=etsryn&theme=dark&hide_border=true)](https://git.io/streak-stats)
-  </a>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=etsryn&theme=dark&hide_border=true)](https://git.io/streak-stats)
   
   <br />
   

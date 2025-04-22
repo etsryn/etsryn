@@ -1,6 +1,6 @@
 <div align="center">
   
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=30&duration=3000&pause=1000&color=6A5ACD&center=true&vCenter=true&width=600&lines=Hello+World!+I'm+Krishna+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB;Crafting+Digital+Solutions;Building+Tomorrow's+Web;Turning+Coffee+into+Code;Debugging+the+Universe)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=50&duration=2000&pause=998&center=true&vCenter=true&width=435&lines=Introducing+Myself+!;I+am+Rayyan+Ashraf;Interested+in+Field+of;Data+Science;Artificial+Intelligence;or+Machine+Learning+%3F;I'm+Eager+to+Connect)](https://git.io/typing-svg)
 
   <a href="https://github.com/etsryn">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=krikera&theme=tokyonight&hide_border=true&background=0D1117&stroke=4B0082&ring=6A5ACD&fire=9370DB&currStreakNum=A020F0&sideNums=A020F0&currStreakLabel=9370DB&sideLabels=9370DB&dates=6A5ACD" alt="GitHub Streak" />

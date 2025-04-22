@@ -6,7 +6,7 @@
   
   <br />
   
-<pre style="text-align: left;">
+<pre style="text-align: left; white-space: pre-wrap; word-wrap: break-word;">
 ```python
 from functools import reduce
 from itertools import cycle
@@ -70,6 +70,7 @@ class Rayyan(metaclass=RayyanMeta):
 
     def __str__(self):
         return f"Rayyan({', '.join(self.__dict__.keys())})"
+  ```
 </pre>
 
 </div>

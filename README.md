@@ -6,6 +6,7 @@
   
   <br />
   
+<pre style="text-align: left;">
 ```python
 from functools import reduce
 from itertools import cycle
@@ -69,7 +70,8 @@ class Rayyan(metaclass=RayyanMeta):
 
     def __str__(self):
         return f"Rayyan({', '.join(self.__dict__.keys())})"
-  ```
+</pre>
+
 </div>
 
 <img align="right" width="38%" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzM5bndzNjFnNDMxbGdid2E0ejIzejZkaWZ3ZjRpZWlseTJ0cWc5MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" />
